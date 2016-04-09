@@ -27,7 +27,7 @@ public class Field {
 	
 	/// The name of the field that will be used for formatting to the JSON key.
 	/// This can be nil, in which case the regular name will be used.
-	var serializedName: String {
+	public var serializedName: String {
 		get {
 			return _serializedName ?? name
 		}
